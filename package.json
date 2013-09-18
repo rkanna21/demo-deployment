@@ -1,0 +1,29 @@
+{
+	"name": "demo-deployment",
+	"version": "0.0.1",
+	"description": "A demo for the deployment module.",
+	"homepage": "https://github.com/alexfernandez/demo-deployment",
+	"contributors": ["Alex Fernández <alexfernandeznpm@gmail.com>"],
+	"license": "MIT",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/alexfernandez/demo-deployment"
+	},
+	"dependencies": {
+		"testing": "*",
+		"loadtest": "*",
+		"log": "*"
+	},
+	"keywords" : ["demo", "deployment", "continuous deployment", "testing"],
+	"engines": {
+		"node": "*"
+	},
+	"bin": {
+	},
+	"preferGlobal": false,
+	"scripts": {
+		"test": "node test.js"
+	},
+	"private": false
+  }
