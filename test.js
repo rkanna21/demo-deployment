@@ -18,15 +18,16 @@ var log = new Log('info');
  */
 exports.test = function(callback)
 {
+	log.info('Running tests');
 	var tests = {};
-	var modules = ['server.js', 'loadtest.js'];
+	var modules = ['server.js', 'integration.js', 'loadtest.js'];
 	modules.forEach(function(name)
 	{
 		var filename = './lib/' + name;
 		tests[name] = require(filename).test;
 	});
 	testing.run(tests, 10000, callback);
-}
+};
 
 // run tests if invoked directly
 if (__filename == process.argv[1])
