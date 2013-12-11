@@ -1,3 +1,5 @@
+[![Build Status](https://secure.travis-ci.org/alexfernandez/demo-deployment.png)](http://travis-ci.org/alexfernandez/demo-deployment)
+
 # demo-deployment
 
 A demo for the deployment package.
