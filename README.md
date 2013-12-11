@@ -4,7 +4,11 @@ A demo for the deployment package.
 
 ## Usage
 
-Functionality is very simple.
+Functionality is very simple: the addPath application runs on
+  http://localhost:12322/
+and adds the numbers in the path together. For instance:
+  http://localhost:12322/5/6
+should show '11'.
 
 Just add some tests and add them to test.js. Then try them out with
 
